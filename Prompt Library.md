@@ -11,7 +11,7 @@ Items generated must follow these rules
 * Without mentioning the labs name directly, items should relate to the Johns Hopkins Applied Physics lab and its work, keep the names lighthearted. 
 * Assign one of these categories to each item ['sword', 'shield', 'amulet', 'boots', 'potion', 'facewear']
 
-The output should be in json format using the following key and datatype pairs {"name":str, "lore":str, "stats": {"health":int, "agility":int, "damage":int}, "category": str}.
+The output should be in json format using the following key and datatype pairs {"name":str, "lore":str, "stats": {"health":int, "agility":int, "damage":int}, "category": str, "cost":int}.
 
 ## Character System Prompt
 
@@ -62,8 +62,6 @@ Inventory (xx /4) : ...
 	Potion:
 		stat info 
 	
-	
-
 Current Events:
 	{Other Character Name} is attacking you. 
 
@@ -83,4 +81,6 @@ You are an overseer of a text based mrpg game. Your job is to validate the actio
 
 Rules: {[[Rules and Formulas]]}
 
-## Potential Goblin Prompt
+##  Goblin Prompt \*example
+
+Idk Yet

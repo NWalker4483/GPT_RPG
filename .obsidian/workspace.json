@@ -4,15 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "72f678df1f366412",
+        "id": "287c283fb0b92b4b",
         "type": "split",
         "children": [
           {
-            "id": "0c0dfacb897f0a65",
+            "id": "a925d0f2470f3992",
             "type": "tabs",
+            "dimension": 74.62962962962963,
             "children": [
               {
-                "id": "002c5ac235749f8f",
+                "id": "5944b21a07a02550",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -22,24 +23,13 @@
                     "source": false
                   }
                 }
-              },
-              {
-                "id": "6273bb27f3d3bc4a",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Prompt Library.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
               }
             ]
           },
           {
-            "id": "a925d0f2470f3992",
+            "id": "d455ad1b4f8da591",
             "type": "tabs",
+            "dimension": 25.37037037037037,
             "children": [
               {
                 "id": "d2c7b0253cd93ded",
@@ -71,8 +61,8 @@
                       },
                       "serial": {
                         "columns": 148,
-                        "data": "(base) walkenz1@F0Y6KHY5T0-ML Word Games % echo \"# GPT_RPG\" >> README.md\r\ngit init\r\ngit add README.md\r\ngit commit -m \"first commit\"\r\ngit branch -M main\r\ngit remote add origin https://github.com/NWalker4483/GPT_RPG.git\r\ngit push -u origin main\r\nInitialized empty Git repository in /Users/walkenz1/My Drive/Word Games/.git/\r\n[main (root-commit) 2751239] first commit\r\n 1 file changed, 1 insertion(+)\r\n create mode 100644 README.md\r\nEnumerating objects: 3, done.\r\nCounting objects: 100% (3/3), done.\r\nWriting objects: 100% (3/3), 225 bytes | 225.00 KiB/s, done.\r\nTotal 3 (delta 0), reused 0 (delta 0), pack-reused 0\r\nTo https://github.com/NWalker4483/GPT_RPG.git\r\n * [new branch]      main -> main\r\nbranch 'main' set up to track 'origin/main'.\r\n(base) walkenz1@F0Y6KHY5T0-ML Word Games % git commit -m \"Sync\"         \r\nOn branch main\r\nYour branch is ahead of 'origin/main' by 1 commit.\r\n  (use \"git push\" to publish your local commits)\r\n\r\nChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   .obsidian/workspace.json\r\n\r\n\u001b[0mUntracked files:\r\n  (use \"git add <file>...\" to include in what will be committed)\r\n\u001b[8C\u001b[31m.obsidian/graph.json\r\n\u001b[8CUntitled.canvas\r\n\r\n\u001b[0mno changes added to commit (use \"git add\" and/or \"git commit -a\")\r\n(base) walkenz1@F0Y6KHY5T0-ML Word Games % git push\r\nEnumerating objects: 29, done.\r\nCounting objects: 100% (29/29), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (24/24), done.\r\nWriting objects: 100% (28/28), 700.20 KiB | 9.34 MiB/s, done.\r\nTotal 28 (delta 1), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (1/1), done.\r\nTo https://github.com/NWalker4483/GPT_RPG.git\r\n   2751239..f60b6d1  main -> main\r\n(base) walkenz1@F0Y6KHY5T0-ML Word Games %                     \u001b[20D",
-                        "rows": 23
+                        "data": "(base) walkenz1@F0Y6KHY5T0-ML Word Games % echo \"# GPT_RPG\" >> README.md\r\ngit init\r\ngit add README.md\r\ngit commit -m \"first commit\"\r\ngit branch -M main\r\ngit remote add origin https://github.com/NWalker4483/GPT_RPG.git\r\ngit push -u origin main\r\nInitialized empty Git repository in /Users/walkenz1/My Drive/Word Games/.git/\r\n[main (root-commit) 2751239] first commit\r\n 1 file changed, 1 insertion(+)\r\n create mode 100644 README.md\r\nEnumerating objects: 3, done.\r\nCounting objects: 100% (3/3), done.\r\nWriting objects: 100% (3/3), 225 bytes | 225.00 KiB/s, done.\r\nTotal 3 (delta 0), reused 0 (delta 0), pack-reused 0\r\nTo https://github.com/NWalker4483/GPT_RPG.git\r\n * [new branch]      main -> main\r\nbranch 'main' set up to track 'origin/main'.\r\n(base) walkenz1@F0Y6KHY5T0-ML Word Games % git commit -m \"Sync\"         \r\nOn branch main\r\nYour branch is ahead of 'origin/main' by 1 commit.\r\n  (use \"git push\" to publish your local commits)\r\n\r\nChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   .obsidian/workspace.json\r\n\r\n\u001b[0mUntracked files:\r\n  (use \"git add <file>...\" to include in what will be committed)\r\n\u001b[8C\u001b[31m.obsidian/graph.json\r\n\u001b[8CUntitled.canvas\r\n\r\n\u001b[0mno changes added to commit (use \"git add\" and/or \"git commit -a\")\r\n(base) walkenz1@F0Y6KHY5T0-ML Word Games % git push\r\nEnumerating objects: 29, done.\r\nCounting objects: 100% (29/29), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (24/24), done.\r\nWriting objects: 100% (28/28), 700.20 KiB | 9.34 MiB/s, done.\r\nTotal 28 (delta 1), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (1/1), done.\r\nTo https://github.com/NWalker4483/GPT_RPG.git\r\n   2751239..f60b6d1  main -> main\r\n(base) walkenz1@F0Y6KHY5T0-ML Word Games % git push            \r\nEnumerating objects: 13, done.\r\nCounting objects: 100% (13/13), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (7/7), done.\r\nWriting objects: 100% (8/8), 1.62 KiB | 1.62 MiB/s, done.\r\nTotal 8 (delta 4), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (4/4), completed with 4 local objects.\r\nTo https://github.com/NWalker4483/GPT_RPG.git\r\n   f60b6d1..b5e8761  main -> main\r\n(base) walkenz1@F0Y6KHY5T0-ML Word Games % ",
+                        "rows": 9
                       }
                     }
                   },
@@ -148,6 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Rules and Formulas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,6 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Rules and Formulas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +177,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Rules and Formulas.md"
+              }
             }
           }
         ]
@@ -206,15 +200,15 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "d2c7b0253cd93ded",
+  "active": "5944b21a07a02550",
   "lastOpenFiles": [
-    "Rules and Formulas.md",
-    "UI Ideas.md",
-    "Item List.md",
-    "Prompt Library.md",
-    "README.md",
     "Basic Game Flow.md",
     "Glossary.md",
+    "README.md",
+    "Item List.md",
+    "Prompt Library.md",
+    "Rules and Formulas.md",
+    "UI Ideas.md",
     "References/Voyager Task Prompt.md",
     "2023-07-03.md",
     "Untitled 1.canvas",

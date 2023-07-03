@@ -20,20 +20,20 @@ Players and Characters interact through the Guide Prompt. Th
 
 ## ~~Character <-> Character Interaction~~
 
-## Traveling
-
-### Landmarks
+## Landmarks
 Landmarks allow the character to be moved to a specific position it has previously had within visual range
 
 ## Actions
-### Interaction
+### Traveling
 * Go To: When an item, character, or location is visible but outside 
+* Approach: When an item, character, or location is visible but outside 
+
+### Interaction
 * Pick Up: When an item is within interaction range, it can be picked up added to inventory. Any status effects of the item are immediately applied.
 * Exchange: A subset of the pickup action. When the inventory is full a model may choose to drop one of its currently held items to pickup the target item.
 
 ### Combat
 * Attack: When a different player is within interaction range 
 * Run: 
-
 
 ## Goblin Rules 
