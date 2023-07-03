@@ -33,7 +33,7 @@ Landmarks allow the character to be moved to a specific position it has previous
 
 ### Combat
 * Attack: When a different player is within interaction range 
-* Run: n
+* Run: 
 
 
 ## Goblin Rules 
