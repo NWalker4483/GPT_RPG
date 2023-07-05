@@ -18,7 +18,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Item List.md",
+                    "file": "Glossary.md",
                     "mode": "source",
                     "source": false
                   }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Item List.md",
+                "file": "Glossary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Item List.md",
+                "file": "Glossary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Item List.md"
+                "file": "Glossary.md"
               }
             }
           }
@@ -202,9 +202,9 @@
   },
   "active": "5944b21a07a02550",
   "lastOpenFiles": [
-    "Glossary.md",
-    "Item List.md",
     "Basic Game Flow.md",
+    "Item List.md",
+    "Glossary.md",
     "Rules and Formulas.md",
     "UI Ideas.md",
     "Prompt Library.md",
