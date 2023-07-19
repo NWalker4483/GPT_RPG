@@ -194,6 +194,8 @@
   },
   "active": "5944b21a07a02550",
   "lastOpenFiles": [
+    "game/Assets/Items/potion.png",
+    "game/Assets/Items/shield copy.png",
     "game/Assets/Items/dagger.png",
     "game/Assets/Items/shield.png",
     "game/__pycache__/edge_assembler.cpython-39.pyc",
@@ -219,8 +221,6 @@
     "game/Assets/Tiles/Grass/002 - Copy - Copy.png",
     "game/Assets/Tiles/Grass/001.png",
     "game/Assets/Tiles/Grass/000.png",
-    "game/Assets/Tiles/Grass/000 - Copy.png",
-    "game/Assets/Tiles/Grass/000 - Copy (4).png",
     "game/Assets/Tiles/mask_filler.py",
     "game/Assets/Tiles/Water",
     "game/Assets/Tiles/Grass",

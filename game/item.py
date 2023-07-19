@@ -7,6 +7,7 @@ class Item(Entity):
 	def __init__(self, pos):
 		# set item qualities
 		self.name = "MISSING NAME";
+		self.decription = "NO DESCRIPTION"
 		self.stats = [0, 0, 0]; # HP, Attack, Agility
 
 		# set visual qualities inside each item
@@ -40,8 +41,38 @@ class Dagger(Item):
 		self.mask = cv2.bitwise_not(self.mask);
 
 		
+class Sword(Item):
+	def __init__(self, pos):
+		super().__init__(pos);
+		self.name = "Sword";
+		self.stats = [0, 1, 0];
+
+		self.img = cv2.imread("Assets/Items/sword.png");
+		self.mask = cv2.inRange(self.img, (255,255,255), (255,255,255), cv2.THRESH_BINARY);
+		self.mask = cv2.bitwise_not(self.mask);
+  
+class Shield(Item):
+	def __init__(self, pos):
+		super().__init__(pos)
+
+		self.name = "Shield"
+		self.stats = [0, 1, 0]
+
+		self.img = cv2.imread("Assets/Items/shield.png");
+		self.mask = cv2.inRange(self.img, (255,255,255), (255,255,255), cv2.THRESH_BINARY);
+		self.mask = cv2.bitwise_not(self.mask);
 
 
+class Potion(Item):
+	def __init__(self, pos):
+		super().__init__(pos);
+
+		self.name = "Potion";
+		self.stats = [0, 1, 0];
+
+		self.img = cv2.imread("Assets/Items/potion.png");
+		self.mask = cv2.inRange(self.img, (255,255,255), (255,255,255), cv2.THRESH_BINARY);
+		self.mask = cv2.bitwise_not(self.mask);
 
 if __name__ == "__main__":
 	thing = Dagger((0,0));
