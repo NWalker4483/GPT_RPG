@@ -16,12 +16,8 @@
                 "id": "5944b21a07a02550",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Prompt Library.md",
-                    "mode": "source",
-                    "source": false
-                  }
+                  "type": "empty",
+                  "state": {}
                 }
               }
             ]
@@ -138,7 +134,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Prompt Library.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +150,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Prompt Library.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,9 +171,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Prompt Library.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -202,17 +194,44 @@
   },
   "active": "5944b21a07a02550",
   "lastOpenFiles": [
+    "game/Assets/Items/dagger.png",
+    "game/Assets/Items/shield.png",
+    "game/__pycache__/edge_assembler.cpython-39.pyc",
+    "game/__pycache__/edge_assembler.cpython-39.pyc.140460197816768",
+    "game/__pycache__/entity.cpython-39.pyc",
+    "game/__pycache__/item.cpython-39.pyc",
+    "game/__pycache__",
+    "README.md",
+    "Prompt Library.md",
+    "docs/UI Ideas.md",
+    "docs/Rules and Formulas.md",
+    "docs/README.md",
+    "docs/Prompt Library.md",
+    "docs/Item List.md",
+    "docs/Glossary.md",
+    "docs/Basic Game Flow.md",
+    "docs",
+    "prompts",
+    "game/Assets/Tiles/Water/000.png",
+    "game/Assets/Tiles/Grass/003.png",
+    "game/Assets/Tiles/Grass/002.png",
+    "game/Assets/Tiles/Grass/002 - Copy.png",
+    "game/Assets/Tiles/Grass/002 - Copy - Copy.png",
+    "game/Assets/Tiles/Grass/001.png",
+    "game/Assets/Tiles/Grass/000.png",
+    "game/Assets/Tiles/Grass/000 - Copy.png",
+    "game/Assets/Tiles/Grass/000 - Copy (4).png",
+    "game/Assets/Tiles/mask_filler.py",
+    "game/Assets/Tiles/Water",
+    "game/Assets/Tiles/Grass",
     "Item List.md",
     "UI Ideas.md",
     "Rules and Formulas.md",
-    "README.md",
     "Glossary.md",
     "Basic Game Flow.md",
-    "Prompt Library.md",
     "References/Voyager Task Prompt.md",
     "2023-07-03.md",
     "Untitled 1.canvas",
-    "References",
     "References/Voyager Action Prompt.md",
     "Untitled.canvas"
   ]

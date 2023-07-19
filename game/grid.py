@@ -3,14 +3,11 @@ import random
 import numpy as np
 
 from item import Dagger
-
-from tile_encoder import TileAtlas
 from edge_assembler import tileAssembler
 
 # Tile Images:
 # Buch: http://blog-buch.rhcloud.com,
 # Jeffrey Kern as committer and creative consultant
-
 
 class Tile:
 	def __init__(self, pos):

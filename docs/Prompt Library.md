@@ -9,7 +9,7 @@ Items generated must follow these rules
 * If an item increase two stats it must either decrease the third stat of have a cost >= 9 coins.
 * Most of the Items should have a cost between 3 and 7 coins. 
 * Without mentioning the labs name directly, items should relate to the Johns Hopkins Applied Physics lab and its work, keep the names lighthearted. 
-* Assign one of these categories to each item ['sword', 'shield', 'amulet', 'boots', 'potion', 'facewear']
+* Assign one of these categories to each item ['dagger', 'sword', 'shield', 'amulet', 'boots', 'potion', 'facewear']
 
 The output should be in json format using the following key and datatype pairs {"name":str, "lore":str, "stats": {"health":int, "agility":int, "damage":int}, "category": str, "cost":int}.
 

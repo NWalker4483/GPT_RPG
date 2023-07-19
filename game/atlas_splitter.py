@@ -24,7 +24,6 @@ def isBlank(tile):
 	# cv2.waitKey(1);
 	return np.sum(mask) == 0;
 
-
 # list of spritesheets
 sheets = ["grass_crop.png"];
 
