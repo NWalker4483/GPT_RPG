@@ -186,7 +186,7 @@ if __name__ == "__main__":
 	world = WorldGrid(30, 15);
 	world.generateObstacles(int(world.numTiles() * 0.20)); # % obstacles
 	world.setNeighbors();
-	world.generateItems(15, [Dagger((0,0)),Shield((0,0)),Sword((0,0))])#,Potion((0,0))]);
+	world.generateItems(15, [Dagger((0,0)),Shield((0,0)),Sword((0,0)),Potion((0,0))]);
 	world_map = world.getImage(tile_size=50)
 	cv2.imshow("Map", world_map)
 	cv2.waitKey(0)
