@@ -16,8 +16,12 @@
                 "id": "5944b21a07a02550",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {}
+                  "type": "markdown",
+                  "state": {
+                    "file": "docs/Glossary.md",
+                    "mode": "source",
+                    "source": false
+                  }
                 }
               }
             ]
@@ -134,6 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "docs/Glossary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,6 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "docs/Glossary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +177,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "docs/Glossary.md"
+              }
             }
           }
         ]
@@ -194,6 +202,15 @@
   },
   "active": "5944b21a07a02550",
   "lastOpenFiles": [
+    "docs/Basic Game Flow.md",
+    "docs/Glossary.md",
+    "docs/Item List.md",
+    "docs/Prompt Library.md",
+    "docs/Rules and Formulas.md",
+    "docs/UI Ideas.md",
+    "README.md",
+    "game/requirements.txt",
+    "game/llm.py",
     "game/main.py",
     "assets/world.png",
     "world.png",
@@ -213,19 +230,9 @@
     "game/__pycache__/entity.cpython-39.pyc",
     "game/__pycache__/item.cpython-39.pyc",
     "game/__pycache__",
-    "README.md",
     "Prompt Library.md",
-    "docs/UI Ideas.md",
-    "docs/Rules and Formulas.md",
     "docs/README.md",
-    "docs/Prompt Library.md",
-    "docs/Item List.md",
-    "docs/Glossary.md",
-    "docs/Basic Game Flow.md",
-    "docs",
-    "prompts",
     "game/Assets/Tiles/Water/000.png",
-    "game/Assets/Tiles/mask_filler.py",
     "Item List.md",
     "UI Ideas.md",
     "Rules and Formulas.md",

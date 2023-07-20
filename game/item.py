@@ -28,6 +28,7 @@ class Item(Entity):
 		copy_item.layer = self.layer;
 		return copy_item;
 
+
 # credit: http://opengameart.org/content/dungeon-crawl-32x32-tiles
 class Dagger(Item):
 	def __init__(self, pos):
