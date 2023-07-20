@@ -83,4 +83,4 @@ Rules: {[[Rules and Formulas]]}
 
 ##  Goblin Prompt \*example
 
-Idk Yet
+Idk Yet 
