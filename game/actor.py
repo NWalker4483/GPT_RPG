@@ -1,4 +1,4 @@
-`import cv2
+import cv2
 import numpy as np
 
 from entity import Entity
@@ -24,6 +24,7 @@ class Player(Actor):
 		self.name = name;
 		self.stats = [5,2,2];
 		self.vision = 4;
+		self.inventory = [] 
 
 		# visual rep
 		self.img = cv2.imread(img_file);
@@ -41,4 +42,10 @@ class Player(Actor):
 	def move(self, direction_str):
 		shift = self.move_dict[direction_str];
 		self.pos[0] += shift[0];
-		self.po1[1] += shift[1];
+		self.pos[1] += shift[1];
+
+class AI_Player(Player):
+	def __init__(self, pos, name, img_file, mask_file):
+		super().__init__(pos, name, img_file, mask_file)
+  
+    

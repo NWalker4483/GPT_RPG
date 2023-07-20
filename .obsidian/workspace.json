@@ -194,6 +194,7 @@
   },
   "active": "5944b21a07a02550",
   "lastOpenFiles": [
+    "game/main.py",
     "assets/world.png",
     "world.png",
     "Screenshot 2023-07-19 at 7.50.25 PM.png",
@@ -224,7 +225,6 @@
     "docs",
     "prompts",
     "game/Assets/Tiles/Water/000.png",
-    "game/Assets/Tiles/Grass/003.png",
     "game/Assets/Tiles/mask_filler.py",
     "Item List.md",
     "UI Ideas.md",
