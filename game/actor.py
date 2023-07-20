@@ -18,8 +18,8 @@ class Actor(Entity):
 
 class Avatar(Actor):
 	def __init__(self, pos, name, img_file, mask_file):
-		super().__init__(pos);
-
+		super().__init__(pos);#Assets/Avatars/Clyde
+  
 		# set qualities
 		self.name = name;
 		self.stats = [5,2,2];
