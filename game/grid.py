@@ -180,6 +180,9 @@ class WorldGrid:
 				index = random.randint(0,len(item_set)-1);
 				self.grid[y][x].contains.append(item_set[index].getCopy(pos=[x,y]));
 				num_items -= 1;
+    
+    def placeItems(self, items):
+        pass
 
 if __name__ == "__main__":
 	# generate and populate world

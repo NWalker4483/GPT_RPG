@@ -4,10 +4,10 @@ import numpy as np
 from entity import Entity
 
 class Item(Entity):
-	def __init__(self, pos):
+	def __init__(self, pos, name = "MISSING NAME", decription = "NO DESCRIPTION"):
 		# set item qualities
-		self.name = "MISSING NAME";
-		self.decription = "NO DESCRIPTION"
+		self.name = name
+		self.decription = decription
 		self.stats = [0, 0, 0]; # HP, Attack, Agility
 
 		# set visual qualities inside each item
@@ -62,7 +62,6 @@ class Shield(Item):
 		self.img = cv2.imread("Assets/Items/shield.png");
 		self.mask = cv2.inRange(self.img, (255,255,255), (255,255,255), cv2.THRESH_BINARY);
 		self.mask = cv2.bitwise_not(self.mask);
-
 
 class Potion(Item):
 	def __init__(self, pos):

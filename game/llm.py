@@ -11,3 +11,7 @@ class prompts:
     
 def build_update_prompt():
     pass
+
+
+if __name__ == "__main__":
+    pass
