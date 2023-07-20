@@ -44,7 +44,7 @@ class Player(Actor):
 		self.pos[0] += shift[0];
 		self.pos[1] += shift[1];
 
-class AI_Player(Player):
+class BotPlayer(Player):
 	def __init__(self, pos, name, img_file, mask_file):
 		super().__init__(pos, name, img_file, mask_file)
   
