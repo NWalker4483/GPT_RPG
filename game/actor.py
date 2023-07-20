@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-
+from llm import prompts
 from entity import Entity
 
 class Actor(Entity):
@@ -16,7 +16,7 @@ class Actor(Entity):
 
 		super().__init__(pos, self.img, self.mask, self.layer);
 
-class Player(Actor):
+class Avatar(Actor):
 	def __init__(self, pos, name, img_file, mask_file):
 		super().__init__(pos);
 
@@ -44,8 +44,9 @@ class Player(Actor):
 		self.pos[0] += shift[0];
 		self.pos[1] += shift[1];
 
-class BotPlayer(Player):
+class BotAvatar(Avatar):
 	def __init__(self, pos, name, img_file, mask_file):
 		super().__init__(pos, name, img_file, mask_file)
+		self.guiding_promt = prompts.ACTOR_GUIDE
   
     

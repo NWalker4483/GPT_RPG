@@ -11,22 +11,22 @@
 
 ## Turn Ordering
 * Each players turns are taken sequentially.
-* If a Actors action is visible to another coming afterwards information about that action will be passed to subsequent Actor updates.
+* If a Avatars action is visible to another coming afterwards information about that action will be passed to subsequent Avatar updates.
 
-## Player <-> Actor Interaction
-Players and Actors interact through the Guide Prompt. Th
+## Player <-> Avatar Interaction
+Players and Avatars interact through the Guide Prompt. Th
 * Players are locked out of modifying the prompts when items or players are within interaction range
 * After modifying the guide prompt the player must wait a minimum of 3 turns before doing so again 
 
-## ~~Actor <-> Actor Interaction~~
+## ~~Avatar <-> Avatar Interaction~~
 
 ## Landmarks
-Landmarks allow the Actor to be moved to a specific position it has previously had within visual range
+Landmarks allow the Avatar to be moved to a specific position it has previously had within visual range
 
 ## Actions
 ### Traveling
-* Go To: When an item, Actor, or location is visible but outside 
-* Approach: When an item, Actor, or location is visible but outside 
+* Go To: When an item, Avatar, or location is visible but outside 
+* Approach: When an item, Avatar, or location is visible but outside 
 
 ### Interaction
 * Pick Up: When an item is within interaction range, it can be picked up added to inventory. Any status effects of the item are immediately applied.

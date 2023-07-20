@@ -48,7 +48,7 @@ The game offers three paths to victory:
 
 2. **Be the Last Man Standing**: Engage in battles, strategize, and outwit your opponents. If you defeat all other players and remain the last surviving hero, victory is yours.
 
-3. **Bigg Boss Challenge**: Confront the formidable Bigg Boss, a menacing goblin overlord. Defeat him in an epic showdown to claim victory and glory.
+3. **Boss Challenge**: Confront the formidable Bigg Boss, a menacing goblin overlord. Defeat him in an epic showdown to claim victory and glory.
 
 Remember, each path presents unique challenges and requires different approaches. Choose your strategy wisely and embrace the adventure!
 

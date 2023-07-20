@@ -18,7 +18,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "docs/Item List.md",
+                    "file": "docs/Prompt Library.md",
                     "mode": "source",
                     "source": false
                   }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Item List.md",
+                "file": "docs/Prompt Library.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Item List.md",
+                "file": "docs/Prompt Library.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Item List.md"
+                "file": "docs/Prompt Library.md"
               }
             }
           }
@@ -203,8 +203,8 @@
   "active": "5944b21a07a02550",
   "lastOpenFiles": [
     "docs/Glossary.md",
+    "docs/Example Item List.md",
     "docs/Basic Game Flow.md",
-    "docs/Item List.md",
     "docs/Prompt Library.md",
     "docs/Rules and Formulas.md",
     "docs/UI Ideas.md",
