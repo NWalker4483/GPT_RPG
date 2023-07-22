@@ -1,9 +1,11 @@
 from grid import WorldGrid
 
-class Session:
+class GameSession:
     def __init__(self) -> None:
         self.__players = []
         self.world = WorldGrid()
+    def add_player(self):
+        pass
     def is_valid_action():
         pass
     def update(self):
@@ -17,5 +19,7 @@ class Session:
         pass
     def run(self):
         pass
+    
+    
 if __name__ == "__main__":
     pass

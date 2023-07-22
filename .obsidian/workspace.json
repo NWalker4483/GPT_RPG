@@ -8,17 +8,17 @@
         "type": "split",
         "children": [
           {
-            "id": "a925d0f2470f3992",
+            "id": "665529e24d4d67bd",
             "type": "tabs",
             "dimension": 74.62962962962963,
             "children": [
               {
-                "id": "5944b21a07a02550",
+                "id": "94c89a3ba9f08e2e",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "docs/Prompt Library.md",
+                    "file": "docs/Rules and Formulas.md",
                     "mode": "source",
                     "source": false
                   }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Prompt Library.md",
+                "file": "docs/Rules and Formulas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Prompt Library.md",
+                "file": "docs/Rules and Formulas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Prompt Library.md"
+                "file": "docs/Rules and Formulas.md"
               }
             }
           }
@@ -200,38 +200,39 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "5944b21a07a02550",
+  "active": "94c89a3ba9f08e2e",
   "lastOpenFiles": [
-    "game/Assets/Avatars/Clyde/right.png",
-    "game/Assets/Avatars/Clyde/up.png",
-    "game/Assets/Avatars/Clyde/left.png",
-    "game/Assets/Avatars/Clyde/down.png",
-    "game/Assets/Avatars/Clyde/Untitled.png.sb-5ff60277-hdCbkP",
-    "game/Assets/Avatars/Clyde/Untitled.png",
-    "game/Assets/Avatars/Clyde/Untitled 2.png",
-    "game/Assets/Avatars/Clyde/Untitled 3.png",
-    "game/Assets/Avatars/Clyde/Move.png",
-    "game/Assets/Avatars/Clyde",
-    "game/Assets/Avatars",
+    "django-login-and-register/core/__pycache__/wsgi.cpython-39.pyc",
+    "django-login-and-register/db.sqlite3",
+    "django-login-and-register/users/migrations/__pycache__/__init__.cpython-39.pyc",
+    "django-login-and-register/users/migrations/__pycache__/0005_rename_activation_otpcode.cpython-39.pyc",
+    "django-login-and-register/users/migrations/__pycache__/0004_activation.cpython-39.pyc",
+    "django-login-and-register/users/migrations/__pycache__/0003_alter_customuser_profile_picture.cpython-39.pyc",
+    "django-login-and-register/users/migrations/__pycache__/0002_customuser_bio_customuser_short_bio.cpython-39.pyc",
+    "django-login-and-register/users/migrations/__pycache__/0001_initial.cpython-39.pyc",
+    "django-login-and-register/users/migrations/__pycache__",
+    "django-login-and-register/users/__pycache__/decorators.cpython-39.pyc",
+    "django-login-and-register/users/__pycache__/utils.cpython-39.pyc",
+    "django-login-and-register/static/images/profile_images/1profile_image.jpg",
+    "django-login-and-register/screenshots/verifying_page.png",
+    "django-login-and-register/screenshots/password_reset.png",
+    "django-login-and-register/screenshots/login.png",
+    "django-login-and-register/screenshots/create_an_account.png",
+    "django-login-and-register/screenshots/change_password.png",
+    "django-login-and-register/screenshots/authorized_page.png",
+    "django-login-and-register/README.md",
+    "web_ui/static/your_image_folder/default_image.jpg",
     "docs/Glossary.md",
-    "docs/Example Item List.md",
-    "docs/Basic Game Flow.md",
+    "game/Assets/Items/sword.png",
+    "game/Assets/Items/shield.png",
     "docs/Prompt Library.md",
     "docs/Rules and Formulas.md",
-    "docs/UI Ideas.md",
     "README.md",
-    "game/requirements.txt",
-    "game/llm.py",
-    "game/main.py",
-    "assets/world.png",
-    "world.png",
-    "Screenshot 2023-07-19 at 7.50.25 PM.png",
-    "assets",
+    "docs/References/UI Ideas.md",
+    "docs/References/Example Item List.md",
+    "docs/Basic Game Flow.md",
     "docs/References/Voyager Action Prompt.md",
     "docs/References/Voyager Task Prompt.md",
-    "docs/References",
-    "game/__pycache__/edge_assembler.cpython-39.pyc",
-    "game/__pycache__/edge_assembler.cpython-39.pyc.140460197816768",
     "Prompt Library.md",
     "docs/README.md",
     "Item List.md",

@@ -37,6 +37,7 @@ class Avatar(Actor):
 			"up" : (0,-1),
 			"down" : (0,1),
 		}
+		self.known_landmarks = dict()
 
 	# process movement words
 	def move(self, direction_str):

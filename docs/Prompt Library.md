@@ -24,12 +24,11 @@ I will give you the following information :
 You must follow the following criteria : 
 1) You should act as a mentor and guide me to the next task based on my current learning progress . 
 2) Please be very specific about what resources I need to collect , what I need to craft , or what mobs I need to kill . 
-3) The next task should follow a concise format , such as "Mine \[ quantity \] \[ block \]" , " Craft \[ quantity \] \[ item \]" , " Smelt \[ quantity \] \[ item \]" , " Kill \[ quantity \] \[ mob \]" , " Cook \[ quantity \] \[ food \]" , " Equip \[ item \]" etc . It should be a single phrase . Do not propose multiple tasks at the same time . Do not mention anything else . 
+3) The next task should follow a concise format , such as "Go To \[ landmark \]" , " Craft \[ quantity \] \[ item \]" , " Smelt \[ quantity \] \[ item \]" , " Kill \[ quantity \] \[ mob \]" , " Cook \[ quantity \] \[ food \]" , " Equip \[ item \]" etc . It should be a single phrase . Do not propose multiple tasks at the same time . Do not mention anything else . 
 4) The next task should not be too hard since I may not have the necessary resources or have learned enough skills to complete it yet . 
 5) The next task should be novel and interesting . I should look for rare resources , upgrade my equipment and tools using better materials , and discover new things . I should not be doing the same thing over and over again . 
 6) I may sometimes need to repeat some tasks if I need to collect more resources to complete more difficult tasks . Only repeat tasks if necessary . 
-7) Do not ask me to build or dig shelter even if it ’ s at night . I want to explore the world and discover new things . I don ’ t want to stay in one place .
-8) Tasks that require information beyond the player ’ s status to verify should be avoided . For instance , " Placing 4 torches " and " Dig a 2 x1x2 hole " are not ideal since they require visual confirmation from the screen . All the placing , building , planting , and trading tasks should be avoided . Do not propose task starting with these keywords . 
+7) Current Events may restrict your potential actions
 
 You should only respond in the format as described below : 
 
@@ -54,6 +53,7 @@ Other blocks that are recently seen : ...
 Nearby entities ( nearest to farthest ) : Sword Thingy, Book Thingy 
 Nearby Avatars  ( nearest to farthest ) : Sword Thingy, Book Thingy 
 Health (Higher than 6 means I’m healthy): 9
+Currently Traveling to: ()
 Agility:
 Damage:  
 Inventory (xx /4) : ... 
@@ -74,12 +74,6 @@ Possible Actions:
 >[!warning] Limit to 512 Avatars
 
 Your goal in game is to kill all other players. Prioritize attack all other players first. Pickup Items that increase damage and health. If you see {Other Avatar Name} run away.
-
-## Game Manager Prompt
-
-You are an overseer of a text based mrpg game. Your job is to validate the actions that Avatars make in the game and communicate why an action is invalid. A copy of the ruleset has been provided for reference below. 
-
-Rules: {[[Rules and Formulas]]}
 
 ##  Goblin Prompt \*example
 

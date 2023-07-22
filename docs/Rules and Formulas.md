@@ -7,33 +7,38 @@
 ## Objectives (Ways to Win)
 * Last Man Standing: Be the last player with a health greater than 0. 
 * Defeat the World Boss: Find and Defeat 
-* Goblin 
+* Goblin King: We'll get there
 
 ## Turn Ordering
 * Each players turns are taken sequentially.
 * If a Avatars action is visible to another coming afterwards information about that action will be passed to subsequent Avatar updates.
 
 ## Player <-> Avatar Interaction
-Players and Avatars interact through the Guide Prompt. Th
+Players and Avatars interact through the Guide Prompt. Its contents along with each update prompt with be given to the model on each of its turns 
 * Players are locked out of modifying the prompts when items or players are within interaction range
 * After modifying the guide prompt the player must wait a minimum of 3 turns before doing so again 
 
-## ~~Avatar <-> Avatar Interaction~~
-
-## Landmarks
-Landmarks allow the Avatar to be moved to a specific position it has previously had within visual range
-
-## Actions
-### Traveling
-* Go To: When an item, Avatar, or location is visible but outside 
-* Approach: When an item, Avatar, or location is visible but outside 
-
-### Interaction
-* Pick Up: When an item is within interaction range, it can be picked up added to inventory. Any status effects of the item are immediately applied.
-* Exchange: A subset of the pickup action. When the inventory is full a model may choose to drop one of its currently held items to pickup the target item.
-
+## Avatar <-> Avatar Interaction
 ### Combat
-* Attack: When a different player is within interaction range 
-* Run: 
+* Attack: When avatars are within interaction range, either avatar may start combat by selecting the attack action
+* Run: When 
+## Items
+### Inventory
+
+### Actions
+* Pick Up: When an item is within interaction range, it can be picked up added to inventory. Any status effects of the item are immediately applied.
+* Exchange: When an avatar attempts a pickup and the inventory is full they'll be prompted to select a current inventory item to drop for the target item.
+
+## Traveling
+### Movements
+Actors are restricted from taking direct movement action i.e up, left, etc. Instead Actors can select a target location to travel to. However the number of grid locations traveled per turn is 
+### Landmarks
+ Once an Item or Avatar becomes visible its last location is stored and an Actor may select to start travel back to that location at any time. For example (Go To: Wooden Sword). If the location that a landmark references becomes visible and no longer contains that item it is removed from the 'Known Landmarks' set.
+
+### Actions
+* Go To:  A landmark from the "Known Landmarks" set is selected. BFS path planning determines how movements are applied until the target landmark is within interaction range. The Avatar Update prompted will be modified with "Currently Traveling to: {landmark}" and "Turns Till arrival : {int}" information
+
+* Explore (North, South, East, West):  
+
 
 ## Goblin Rules 
